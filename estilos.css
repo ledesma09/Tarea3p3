@@ -1,0 +1,109 @@
+
+/* Fuente suave y moderna */
+body {
+    font-family: "Poppins", sans-serif;
+    background: #ffeef7;
+    margin: 0;
+    padding: 20px;
+    color: #5a3754;
+}
+
+/* Contenedor */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff7fc;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 0 18px rgba(255, 102, 153, 0.2);
+}
+
+/* Títulos */
+h1, h2 {
+    color: #e94e9b;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Botones */
+button, .btn {
+    background: #ff7bbf;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover, .btn:hover {
+    background: #ff4fa6;
+    transform: scale(1.05);
+}
+
+/* Inputs */
+input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ffb8d9;
+    margin-bottom: 12px;
+    font-size: 15px;
+    background: #fff0fa;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ff7bbf;
+    background: #ffe1f2;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(255, 139, 185, 0.25);
+}
+
+th {
+    background: #ffc3dd;
+    padding: 12px;
+    color: #803d69;
+    font-size: 15px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ffe0ef;
+    text-align: center;
+}
+
+/* Enlaces de acción */
+a {
+    color: #ff5ebc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e13d9f;
+}
+
+/* Contenedor del formulario */
+.form-box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255, 139, 185, 0.25);
+    max-width: 500px;
+    margin: auto;
+}
